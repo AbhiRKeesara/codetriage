@@ -13,7 +13,7 @@ if ENV["RAILS_MASTER"] == '1'
   gem 'rails', git: 'https://github.com/rails/rails.git'
   gem 'arel', git: 'https://github.com/rails/arel.git'
 else
-  gem 'rails', '5.1.1'
+  gem 'rails', '5.1.3'
 end
 
 gem 'puma', '~> 3.x'
@@ -98,7 +98,6 @@ gem 'yard'
 gem 'sentry-raven', github: "getsentry/raven-ruby"
 gem 'oj'
 gem 'rack-canonical-host'
-
 
 gem 'stackprof'
 gem 'bootsnap', require: false
